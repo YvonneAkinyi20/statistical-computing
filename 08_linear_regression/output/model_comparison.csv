@@ -1,0 +1,3 @@
+model,R_squared,adj_R_squared,AIC
+Simple: Math ~ Reading,0.6684,0.6681,7174.6677
+Multiple: Math ~ Reading + Writing + gender,0.8406,0.8401,6446.1011
