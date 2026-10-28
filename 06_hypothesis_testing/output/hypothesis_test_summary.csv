@@ -1,0 +1,6 @@
+test,H0,H1,test_statistic,p_value,decision
+One-sample t-test (Math),mean = 70,mean != 70,-8.1564,0.0,Reject H0
+Two-sample Welch t-test (Math by gender),mean(group 1) = mean(group 2),means differ,-5.398,0.0,Reject H0
+Mann-Whitney U (Math by gender),distributions are equal,distributions differ,101768.5,0.0,Reject H0
+Paired t-test (Reading vs Writing),mean difference = 0,mean difference != 0,7.7874,0.0,Reject H0
+One-proportion z-test (Math >= 50),p = 0.8,p != 0.8,6.015,0.0,Reject H0
