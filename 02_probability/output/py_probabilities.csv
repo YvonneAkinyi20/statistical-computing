@@ -1,0 +1,9 @@
+probability,value
+P(passed math),0.865
+P(completed prep),0.358
+P(passed and completed prep),0.33
+P(passed | completed prep),0.9218
+P(passed | no prep),0.8333
+P(high math | standard lunch),0.4992
+P(high math | free lunch),0.2451
+P(completed prep | high math),0.4303
