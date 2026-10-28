@@ -1,0 +1,4 @@
+score,mean_mu,std_sigma,skewness,KS_statistic,KS_p_value
+math_score,66.089,15.1555,-0.2789,0.0308,0.2943
+reading_score,69.169,14.5929,-0.2591,0.0439,0.041
+writing_score,68.054,15.1881,-0.2894,0.0416,0.0612
