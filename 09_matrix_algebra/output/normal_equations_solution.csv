@@ -1,0 +1,4 @@
+,np.linalg.solve,inverse method,scipy.linalg.solve,np.linalg.lstsq
+Intercept,7.5241,7.5241,7.5241,7.5241
+Reading,0.6013,0.6013,0.6013,0.6013
+Writing,0.2494,0.2494,0.2494,0.2494

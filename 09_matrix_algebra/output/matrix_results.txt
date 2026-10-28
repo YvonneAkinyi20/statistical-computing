@@ -1,0 +1,86 @@
+Data matrix X (first 5 students: Math, Reading, Writing), shape (5, 3)
+[[72. 72. 74.]
+ [69. 90. 88.]
+ [90. 95. 93.]
+ [47. 57. 44.]
+ [76. 78. 75.]]
+
+Covariance matrix S (all students)
+[[229.919  180.999  184.9391]
+ [180.999  213.1656 211.7867]
+ [184.9391 211.7867 230.908 ]]
+
+Correlation matrix R (all students)
+[[1.     0.8176 0.8026]
+ [0.8176 1.     0.9546]
+ [0.8026 0.9546 1.    ]]
+
+1a. Addition: S + R
+[[230.919  181.8165 185.7418]
+ [181.8165 214.1656 212.7413]
+ [185.7418 212.7413 231.908 ]]
+
+1b. Subtraction: S - R
+[[228.919  180.1814 184.1365]
+ [180.1814 212.1656 210.8321]
+ [184.1365 210.8321 229.908 ]]
+
+1c. Scalar multiple: 0.5 * S
+[[114.9595  90.4995  92.4696]
+ [ 90.4995 106.5828 105.8933]
+ [ 92.4696 105.8933 115.454 ]]
+
+2. Transpose of X, X' (shape (3, 5))
+[[72. 69. 90. 47. 76.]
+ [72. 90. 95. 57. 78.]
+ [74. 88. 93. 44. 75.]]
+
+3a. Multiplication: X'X (3 x 3 sums of squares and cross-products)
+[[26030. 28551. 27538.]
+ [28551. 31642. 30441.]
+ [27538. 30441. 29430.]]
+
+3b. Multiplication: S @ R
+[[526.34   545.5186 542.263 ]
+ [525.2677 563.3178 560.5515]
+ [543.4281 583.4135 581.5191]]
+
+3c. Is matrix multiplication commutative? max |S@R - R@S|
+22.8619
+
+4a. Determinant of S (the generalised variance)
+327,420.15
+
+4b. Determinant of R
+0.0289
+
+4c. Trace of S (total variance) and rank of S
+trace = 673.99, rank = 3
+
+5a. Inverse of S (the precision matrix)
+[[ 0.0133 -0.008  -0.0033]
+ [-0.008   0.0577 -0.0465]
+ [-0.0033 -0.0465  0.0496]]
+
+5b. Check: S @ S^-1 should be the identity matrix
+[[ 1.  0. -0.]
+ [-0.  1. -0.]
+ [-0. -0.  1.]]
+
+5c. Condition number of S (large values mean an unstable inverse)
+61.30
+
+6a. Solve A x = b with A = [[2,1,-1],[-3,-1,2],[-2,1,2]], b = [8,-11,-3]
+    (exact answer is x = [2, 3, -1])
+[ 2.  3. -1.]
+
+6b. Normal equations (X'X) beta = X'y for Math ~ Reading + Writing
+
+
+           np.linalg.solve  inverse method  scipy.linalg.solve  np.linalg.lstsq
+Intercept           7.5241          7.5241              7.5241           7.5241
+Reading             0.6013          0.6013              0.6013           0.6013
+Writing             0.2494          0.2494              0.2494           0.2494
+
+Bonus: eigenvalues of S (all positive, so S is positive definite)
+[610.1213  53.9184   9.953 ]
