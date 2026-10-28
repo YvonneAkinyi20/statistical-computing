@@ -1,0 +1,4 @@
+pair,covariance,pearson_r,pearson_p,r_squared,spearman_rho,spearman_p,strength
+Math vs Reading,180.999,0.8176,1.7877531099062542e-241,0.6684,0.8041,1.3538514946745732e-227,very strong positive
+Math vs Writing,184.939,0.8026,3.3760270425673496e-226,0.6442,0.7783,5.853058974157732e-204,very strong positive
+Reading vs Writing,211.787,0.9546,0.0,0.9113,0.949,0.0,very strong positive
