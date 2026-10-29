@@ -1,0 +1,4 @@
+method,mu,sigma,neg_log_likelihood,iterations
+L-BFGS-B,66.089,15.1555,4137.3018,18.0
+Nelder-Mead,66.089,15.1555,4137.3018,53.0
+Analytic,66.089,15.1555,4137.3018,

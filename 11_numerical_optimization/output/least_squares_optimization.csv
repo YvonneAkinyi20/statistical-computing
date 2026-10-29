@@ -1,0 +1,6 @@
+method,intercept_b0,slope_b1,final_MSE,iterations,function_evaluations,converged,error_vs_closed_form
+BFGS,7.357588,0.8491,76.156513,8,10,True,0.0
+CG,7.357588,0.8491,76.156513,2,6,True,0.0
+L-BFGS-B,7.357604,0.8491,76.156513,7,15,True,0.0
+Nelder-Mead,7.357588,0.8491,76.156513,120,237,True,0.0
+Gradient descent (by hand),7.357588,0.8491,76.156513,106,106,True,0.0
