@@ -1,0 +1,11 @@
+group1,group2,meandiff,p-adj,lower,upper,reject
+group A,group B,1.8234,0.8724,-3.36,7.0068,False
+group A,group C,2.8347,0.4968,-2.0028,7.6723,False
+group A,group D,5.7334,0.0138,0.7824,10.6844,True
+group A,group E,12.1922,0.0,6.7215,17.6629,True
+group B,group C,1.0113,0.9452,-2.6867,4.7094,False
+group B,group D,3.91,0.044,0.0647,7.7552,True
+group B,group E,10.3688,0.0,5.8741,14.8635,True
+group C,group D,2.8986,0.129,-0.4659,6.2632,False
+group C,group E,9.3575,0.0,5.2665,13.4485,True
+group D,group E,6.4588,0.0003,2.2343,10.6834,True
