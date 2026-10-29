@@ -1,0 +1,4 @@
+score,female_mean,male_mean,difference,t,p_value,cohens_d
+math_score,63.6332,68.7282,5.095,5.398,0.0,0.3412
+reading_score,72.6081,65.473,-7.1351,-7.9684,0.0,-0.504
+writing_score,72.4672,63.3112,-9.156,-9.9977,0.0,-0.6321

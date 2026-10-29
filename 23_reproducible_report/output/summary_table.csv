@@ -1,0 +1,4 @@
+,count,mean,median,std,min,max,skewness
+math_score,1000.0,66.09,66.0,15.16,0.0,100.0,-0.28
+reading_score,1000.0,69.17,70.0,14.6,17.0,100.0,-0.26
+writing_score,1000.0,68.05,69.0,15.2,10.0,100.0,-0.29
