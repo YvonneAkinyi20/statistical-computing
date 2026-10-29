@@ -1,0 +1,16 @@
+variable_1,variable_2,chi_square,df,p_value,cramers_v,min_expected,significant,strength
+lunch,math_level,82.42469,2,0.0,0.2871,113.6,True,small
+ethnicity,math_level,55.43045,8,0.0,0.16648,28.48,True,small
+test_prep,math_level,22.97786,2,1e-05,0.15158,114.56,True,small
+gender,math_level,20.5682,2,3e-05,0.14342,154.24,True,small
+parent_education,math_level,32.28859,10,0.00036,0.12706,18.88,True,small
+gender,ethnicity,9.02739,4,0.06042,0.09501,42.898,False,negligible
+ethnicity,parent_education,29.45866,20,0.07911,0.08582,5.251,False,negligible
+test_prep,parent_education,9.54407,5,0.08923,0.09769,21.122,False,negligible
+test_prep,ethnicity,5.48751,4,0.24083,0.07408,31.862,False,negligible
+lunch,ethnicity,3.44235,4,0.4867,0.05867,31.595,False,negligible
+gender,lunch,0.45675,1,0.49915,0.02137,171.11,False,negligible
+lunch,test_prep,0.2905,1,0.5899,0.01704,127.09,False,negligible
+gender,parent_education,3.3849,5,0.64087,0.05818,28.438,False,negligible
+gender,test_prep,0.03634,1,0.84882,0.00603,172.556,False,negligible
+lunch,parent_education,1.11127,5,0.9531,0.03334,20.945,False,negligible
