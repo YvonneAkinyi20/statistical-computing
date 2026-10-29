@@ -1,0 +1,4 @@
+statistic,estimate,boot_SE,CI_lower,CI_upper
+mean,66.089,0.477,65.175,67.053
+median,66.0,0.693,65.0,67.0
+std_dev,15.163,0.356,14.466,15.853
