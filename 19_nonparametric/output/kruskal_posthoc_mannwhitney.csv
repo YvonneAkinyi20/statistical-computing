@@ -1,0 +1,11 @@
+group1,group2,U,p_value,p_bonferroni,significant
+group A,group B,7604.5,0.17587,1.0,False
+group A,group C,12313.5,0.05572,0.55716,False
+group A,group D,8721.5,0.00038,0.00382,True
+group A,group E,3407.0,0.0,0.0,True
+group B,group C,29290.5,0.5274,1.0,False
+group B,group D,21080.0,0.00544,0.0544,False
+group B,group E,8296.5,0.0,0.0,True
+group C,group D,36581.5,0.00968,0.09682,False
+group C,group E,14395.5,0.0,0.0,True
+group D,group E,13622.5,2e-05,0.00021,True

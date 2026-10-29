@@ -1,0 +1,7 @@
+situation,non_parametric_test,np_statistic,np_p_value,parametric_test,par_statistic,par_p_value,np_decision,parametric_decision,same_conclusion
+Math: 0 vs 1,Mann-Whitney U,101768.5,4.279076773478767e-07,Welch t-test,-5.398,8.420838109090421e-08,Reject H0,Reject H0,True
+Reading vs Writing (same students),Wilcoxon signed-rank,149167.0,3.819560484150749e-14,Paired t-test,7.7874,1.7054750946105247e-14,Reject H0,Reject H0,True
+Math across race_ethnicity groups,Kruskal-Wallis H,57.0793,1.1906568165839682e-11,One-way ANOVA F,14.5939,1.3732194030363731e-11,Reject H0,Reject H0,True
+"Math, Reading, Writing (same students)",Friedman chi-square,102.5601,5.362419870508941e-23,Repeated-measures ANOVA F,75.7826,1.8907175534190505e-32,Reject H0,Reject H0,True
+Association between Math and Reading,Spearman rank correlation,0.8041,1.3538514946745732e-227,Pearson correlation,0.8176,1.7877531099062542e-241,Reject H0,Reject H0,True
+"Equality of spread, Math (0 vs 1)",Fligner-Killeen,0.2787,0.5975412526610313,Levene,0.3464,0.5563091575202143,Fail to reject H0,Fail to reject H0,True
