@@ -1,0 +1,6 @@
+quantity,monte_carlo_estimate,exact_or_reference,absolute_error
+pi,3.14956,3.14159,0.00797
+"integral of exp(-x^2) on [0,1]",0.74624,0.74682,0.00058
+P(Math >= 80) under the fitted normal,0.17793,0.17946,0.00153
+P(Math >= 80) observed in the data,0.193,,
+Mean Math score (bootstrap mean of means),66.09102,66.089,0.00202
