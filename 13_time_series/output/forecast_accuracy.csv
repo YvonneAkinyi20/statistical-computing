@@ -1,0 +1,3 @@
+model,MAE,RMSE
+Holt-Winters,2.0786,2.6166
+Seasonal naive (repeat last year),2.4582,3.1292
