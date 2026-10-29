@@ -1,0 +1,13 @@
+,mean,sd,min,max,skewness
+Original: Math,66.089,15.1555,0.0,100.0,-0.2785
+Original: Reading,69.169,14.5929,17.0,100.0,-0.2587
+Original: Writing,68.054,15.1881,10.0,100.0,-0.289
+Standardized (z): Math_z,0.0,1.0,-4.3607,2.2375,-0.2785
+Standardized (z): Reading_z,0.0,1.0,-3.575,2.1127,-0.2587
+Standardized (z): Writing_z,-0.0,1.0,-3.8223,2.1034,-0.289
+Normalized (min-max): Math_minmax,0.6609,0.1516,0.0,1.0,-0.2785
+Normalized (min-max): Reading_minmax,0.6285,0.1758,0.0,1.0,-0.2587
+Normalized (min-max): Writing_minmax,0.645,0.1688,0.0,1.0,-0.289
+Robust: Math_robust,0.0045,0.7578,-3.3,1.7,-0.2785
+Robust: Reading_robust,-0.0416,0.7296,-2.65,1.5,-0.2587
+Robust: Writing_robust,-0.0445,0.7147,-2.7765,1.4588,-0.289
