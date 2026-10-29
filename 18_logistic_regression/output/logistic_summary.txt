@@ -1,0 +1,23 @@
+                           Logit Regression Results                           
+==============================================================================
+Dep. Variable:             math_score   No. Observations:                 1000
+Model:                          Logit   Df Residuals:                      994
+Method:                           MLE   Df Model:                            5
+Date:                Thu, 29 Oct 2026   Pseudo R-squ.:                  0.6357
+Time:                        05:37:12   Log-Likelihood:                -144.19
+converged:                       True   LL-Null:                       -395.78
+Covariance Type:            nonrobust   LLR p-value:                1.635e-106
+=============================================================================================
+                                coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                       -17.5819      1.719    -10.226      0.000     -20.952     -14.212
+reading                       0.0334      0.036      0.925      0.355      -0.037       0.104
+writing                       0.2629      0.043      6.095      0.000       0.178       0.347
+gender_1                      3.8943      0.462      8.438      0.000       2.990       4.799
+lunch_1                       1.6417      0.323      5.081      0.000       1.008       2.275
+test_preparation_course_1    -0.8982      0.398     -2.259      0.024      -1.678      -0.119
+=============================================================================================
+
+Possibly complete quasi-separation: A fraction 0.20 of observations can be
+perfectly predicted. This might indicate that there is complete
+quasi-separation. In this case some parameters will not be identified.

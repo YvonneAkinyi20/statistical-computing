@@ -1,0 +1,8 @@
+,value
+accuracy,0.925
+precision,0.954
+recall (sensitivity),0.9595
+specificity,0.7037
+F1 score,0.9568
+ROC AUC,0.9754
+baseline accuracy (majority class),0.865
