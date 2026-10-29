@@ -1,0 +1,7 @@
+method,RMSE_on_missing_cells,mean_math,sd_math,corr_math_reading
+Mean,15.894,66.204,14.355,0.738
+Median,15.906,66.185,14.355,0.737
+KNN (k=5),7.769,66.063,14.968,0.835
+Iterative (regression),7.051,66.009,14.901,0.838
+Complete-case deletion,,66.526,14.987,0.816
+TRUE (original data),0.0,66.089,15.163,0.818
